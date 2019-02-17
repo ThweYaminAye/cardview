@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <FrameLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/lmh"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="LEEMINHO"
+               android:fontFamily="@font/pala"
+               android:layout_marginTop="320dp"
+               android:textAlignment="center"
+               android:textSize="25dp"
+               android:textColor="#FFFFFF"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="120dp"
+               android:fontFamily="@font/palai"
+               android:text="SOLO"
+               android:layout_marginTop="308dp"
+               android:textAlignment="center"
+               android:textColor="#FFFFFF"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textAlignment="center"
+               android:text="First Single * M/V Release"
+               android:fontFamily=""
+               android:textSize="17dp"
+               android:layout_marginTop="440dp"
+               android:textColor="#FFFFFF"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textAlignment="center"
+               android:text="November 12,2018"
+               android:fontFamily=""
+               android:textSize="30dp"
+               android:layout_marginTop="455dp"
+               android:textColor="#FFFFFF"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textAlignment="center"
+               android:text="*2018 KDRAMA ENTIRNMENT INC.,"
+               android:fontFamily=""
+               android:textSize="8dp"
+               android:layout_marginTop="490dp"
+               android:textColor="#FFFFFF"/>
+       </FrameLayout>
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
