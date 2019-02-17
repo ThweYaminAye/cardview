@@ -30,7 +30,7 @@
                android:layout_height="wrap_content"
                android:textSize="120dp"
                android:fontFamily="@font/palai"
-               android:text="SOLO"
+               android:text="ACTOR"
                android:layout_marginTop="308dp"
                android:textAlignment="center"
                android:textColor="#FFFFFF"/>
